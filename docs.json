@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Overview",
         "groups": [
           {
             "group": "Getting Started",
@@ -21,7 +21,27 @@
             ]
           },
           {
-            "group": "Features",
+            "group": "Mira Core",
+            "pages": [
+              "core/agentic-infrastructure",
+              "core/private-mode",
+              "core/social-memory"
+            ]
+          },
+          {
+            "group": "Product",
+            "pages": [
+              "product/features",
+              "product/for-who"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Features",
+        "groups": [
+          {
+            "group": "Capabilities",
             "pages": [
               "features/chat",
               "features/images",

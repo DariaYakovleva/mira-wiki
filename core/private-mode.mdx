@@ -1,0 +1,50 @@
+---
+title: "Private Mode"
+description: "Complete privacy on Cocoon's decentralised GPU network"
+---
+
+## Overview
+
+For users who value freedom and control, Mira offers **Private Mode** — where requests are processed on [Cocoon](https://cocoon.network)'s decentralised GPU network with zero data sharing.
+
+## How it works
+
+<Steps>
+  <Step title="User enables Private Mode">
+    Open the Mira mini-app → tap *Discover* → enable Private Mode.
+  </Step>
+  <Step title="Request goes to Cocoon">
+    Instead of OpenAI's servers, your message is routed to a Cocoon TEE node.
+  </Step>
+  <Step title="Processed in TEE">
+    The request is processed inside a **Trusted Execution Environment** — hardware-level isolation that prevents even the node operator from reading your data.
+  </Step>
+  <Step title="Response returned">
+    The result comes back to you in Telegram. Nothing is stored.
+  </Step>
+</Steps>
+
+## What is Cocoon?
+
+**Cocoon** (Confidential Compute Open Network) is a decentralised network of confidential GPU computing, integrated with Telegram and TON.
+
+- Nodes run in **TEE** (Trusted Execution Environment)
+- Data is **not stored** on external servers
+- **Not shared** with any third parties
+- Powered by **Qwen3-32B** model
+
+## Normal vs Private Mode
+
+| | Normal Mode | Private Mode |
+|--|-------------|---------------|
+| Model | GPT-4o (OpenAI) | Qwen3-32B (Cocoon) |
+| Data storage | OpenAI infrastructure | Not stored |
+| Privacy | Standard | Maximum |
+| Speed | Fast | Fast |
+| Cost | Standard tokens | Standard tokens |
+
+## Enable Private Mode
+
+<Card title="Open Mira Mini-App" icon="shield" href="https://t.me/mira/home" horizontal>
+  Tap *Discover* at the bottom of the chat to switch to Private Mode.
+</Card>
