@@ -6,29 +6,29 @@ Mira is built on The Open Platform and runs on GPT (normal mode) or Qwen3-32B vi
 
 ## Docs
 
-- [Overview](https://mira.tg/docs): What Mira is and why it exists
-- [Quickstart](https://mira.tg/docs/quickstart): How to start using Mira in Telegram
+- [Overview](https://wiki.mira.tg): What Mira is and why it exists
+- [Quickstart](https://wiki.mira.tg/quickstart): How to start using Mira in Telegram
 
 ## Core
 
-- [Agentic Infrastructure](https://mira.tg/docs/core/agentic-infrastructure): How Mira executes multi-step tasks across apps
-- [Private Mode](https://mira.tg/docs/core/private-mode): Confidential compute via Cocoon network and TEE nodes
-- [Social Memory](https://mira.tg/docs/core/social-memory): How Mira remembers users across conversations
+- [Agentic Infrastructure](https://wiki.mira.tg/core/agentic-infrastructure): How Mira executes multi-step tasks across apps
+- [Private Mode](https://wiki.mira.tg/core/private-mode): Confidential compute via Cocoon network and TEE nodes
+- [Social Memory](https://wiki.mira.tg/core/social-memory): How Mira remembers users across conversations
 
 ## Features
 
-- [Chat](https://mira.tg/docs/features/chat): Conversational AI in Telegram
-- [Images](https://mira.tg/docs/features/images): Image generation and editing
-- [Voice](https://mira.tg/docs/features/voice): Voice messages, TTS, and STT
-- [Video](https://mira.tg/docs/features/video): Video generation and video notes
-- [Integrations](https://mira.tg/docs/features/integrations): 500+ app connections via Composio
-- [Wallet](https://mira.tg/docs/features/wallet): Built-in TON blockchain wallet
-- [Memory](https://mira.tg/docs/features/memory): Long-term and working memory system
+- [Chat](https://wiki.mira.tg/features/chat): Conversational AI in Telegram
+- [Images](https://wiki.mira.tg/features/images): Image generation and editing
+- [Voice](https://wiki.mira.tg/features/voice): Voice messages, TTS, and STT
+- [Video](https://wiki.mira.tg/features/video): Video generation and video notes
+- [Integrations](https://wiki.mira.tg/features/integrations): 500+ app connections via Composio
+- [Wallet](https://wiki.mira.tg/features/wallet): Built-in TON blockchain wallet
+- [Memory](https://wiki.mira.tg/features/memory): Long-term and working memory system
 
 ## Product
 
-- [Features Overview](https://mira.tg/docs/product/features): Full feature list
-- [Who It's For](https://mira.tg/docs/product/for-who): Use cases and target audience
+- [Features Overview](https://wiki.mira.tg/product/features): Full feature list
+- [Who It's For](https://wiki.mira.tg/product/for-who): Use cases and target audience
 
 ## Optional
 
