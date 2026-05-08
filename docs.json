@@ -25,15 +25,9 @@
             "group": "Mira Core",
             "pages": [
               "core/agentic-infrastructure",
+              "core/group-chats",
               "core/private-mode",
-              "core/social-memory"
-            ]
-          },
-          {
-            "group": "Product",
-            "pages": [
-              "product/features",
-              "product/for-who"
+              "core/memory"
             ]
           }
         ]
@@ -42,15 +36,88 @@
         "tab": "Features",
         "groups": [
           {
-            "group": "Capabilities",
+            "group": "Communication",
             "pages": [
-              "features/chat",
+              "features/chat-and-voice"
+            ]
+          },
+          {
+            "group": "Content Generation",
+            "pages": [
               "features/images",
-              "features/voice",
               "features/video",
-              "features/integrations",
-              "features/wallet",
-              "features/memory"
+              "features/music"
+            ]
+          },
+          {
+            "group": "Productivity",
+            "pages": [
+              "features/reminders",
+              "features/skills",
+              "features/mira-daily",
+              "features/anonymous-questions"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Agentic Wallet",
+        "groups": [
+          {
+            "group": "Wallet",
+            "pages": [
+              "wallet/overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Tools",
+        "groups": [
+          {
+            "group": "Integrations",
+            "pages": [
+              "tools/overview",
+              "tools/gmail",
+              "tools/google-calendar",
+              "tools/notion",
+              "tools/github",
+              "tools/linear",
+              "tools/figma",
+              "tools/canva",
+              "tools/slack",
+              "tools/linkedin"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Use Cases",
+        "groups": [
+          {
+            "group": "By Role",
+            "pages": [
+              "use-cases/for-pms",
+              "use-cases/for-developers",
+              "use-cases/for-creators",
+              "use-cases/for-designers"
+            ]
+          },
+          {
+            "group": "Tips",
+            "pages": [
+              "use-cases/life-hacks"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API",
+            "pages": [
+              "api-reference/overview"
             ]
           }
         ]
@@ -65,7 +132,7 @@
         },
         {
           "anchor": "GitHub",
-          "href": "https://github.com/DariaYakovleva/mira-wiki",
+          "href": "https://github.com/Mira-Agent/mira-wiki",
           "icon": "github"
         }
       ]
@@ -90,7 +157,7 @@
   },
   "footer": {
     "socials": {
-      "github": "https://github.com/DariaYakovleva/mira-wiki"
+      "github": "https://github.com/Mira-Agent/mira-wiki"
     }
   }
 }
