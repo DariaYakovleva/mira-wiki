@@ -1,0 +1,94 @@
+---
+title: "Creating Skills"
+description: "Step-by-step guide to creating custom skills for Mira"
+---
+
+# Creating Skills
+
+Creating a skill is like teaching Mira a new habit. You describe what you want, and Mira generates the instructions.
+
+## Step 1: Define your skill
+
+Tell Mira what you want in plain language:
+
+```
+Create a skill called "Email Responder" that:
+- Reads incoming emails
+- Categorizes them by urgency (urgent, normal, low)
+- Drafts a short reply for each
+- Uses a professional but friendly tone
+```
+
+## Step 2: Review the preview
+
+Mira generates the skill and shows you a preview. You'll see:
+
+- **Name** — the skill's display name
+- **Description** — when it activates
+- **Instructions** — the full behavioral prompt
+- **Category** — dev, design, product, marketing, content, productivity, etc.
+
+## Step 3: Refine
+
+If the skill isn't quite right, tell Mira what to change:
+
+```
+Make the tone more casual
+Add: always include a call to action
+Change the category to "productivity"
+```
+
+## Step 4: Activate
+
+Once you're happy, activate the skill. It will now run automatically when relevant.
+
+## Skill anatomy
+
+A skill consists of:
+
+- **Slug** — unique identifier (e.g. `email_responder`), also used as `/slug` command
+- **Name** — display name (e.g. "Email Responder")
+- **Description** — short description of when it activates (max 250 chars)
+- **Instructions** — the full behavioral prompt that Mira follows
+- **Category** — one of: dev, design, product, marketing, content, communication, productivity, ai_tools
+- **Required integrations** — which apps the skill needs (e.g. Gmail, Linear)
+
+## Best practices
+
+### Be specific
+
+❌ *"Help me with emails"*
+✅ *"Categorize emails by urgency and draft 2-3 sentence replies in a professional tone"*
+
+### Include context
+
+❌ *"Write social media posts"*
+✅ *"Write LinkedIn posts about AI and startups, casual tone, max 150 words, always end with a question"*
+
+### Set boundaries
+
+❌ *"Review code"*
+✅ *"Review Python code for security vulnerabilities, performance issues, and PEP 8 compliance. Always list findings as numbered items."*
+
+### Use integrations
+
+```
+Create a skill called "Sprint Bot" that:
+- Checks Linear for tasks due this week
+- Summarizes progress in a bullet list
+- Creates a post in Slack #engineering
+```
+
+## Slash commands
+
+Every skill gets a slash command based on its slug. You can activate it by typing:
+
+```
+/email_responder
+/sprint_bot
+/content_writer
+```
+
+This triggers the skill immediately, regardless of context.
+
+<Tip>Skills are personal — they only work in your chats unless you share them.</Tip>
